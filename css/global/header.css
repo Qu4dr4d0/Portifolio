@@ -10,14 +10,13 @@ a:hover {
 
 .logo {
   font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
   z-index: 6;
 }
 
 nav {
+  padding: 0px 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #0c0c0c;
@@ -31,7 +30,6 @@ nav {
 }
 
 .nav-list li {
-  letter-spacing: 3px;
   margin-left: 32px;
 }
 
@@ -46,6 +44,11 @@ nav {
   background: #fff;
   margin: 8px;
   transition: 0.3s;
+}
+
+.mobile-menu:hover .li {
+  background: #E1006C;
+
 }
 
 @media (max-width: 999px) {
