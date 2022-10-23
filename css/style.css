@@ -1,0 +1,19 @@
+@import url("../css/global/header.css");
+@import url("../css/global/global.css");
+@import url("./home/introduction.css");
+@import url("./presets/components.css");
+@import url("./presets/typography.css");
+@import url("./presets/colors.css");
+@import url("./presets/animations.css");
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+
+
+
+
+
+
+

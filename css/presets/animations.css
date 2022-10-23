@@ -1,0 +1,85 @@
+/*NAV BAR ANIMATION*/
+
+@keyframes  navLinkFade {
+  from{
+      opacity: 0;
+      transform: translateX(50px)
+  }
+
+  to {
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+
+/*SQUARE ANIMATIONS*/
+
+@keyframes walking {
+
+   0% {
+		transform: 
+		translateX(-100px) rotate(0deg)
+
+  }
+   13% {
+		transform: 
+			translateX(100px) rotate(6deg)
+  }
+
+  27% {
+    transform: 
+      translateX(-100px)
+  }
+
+  42% {
+    transform:
+       translateX(100px) rotate(20deg)
+  }
+
+  57% {
+    transform:
+       translateX(-100px) 
+  }
+  70% {
+    transform: 
+      translateX(100px) rotate(45deg)
+  }
+
+  100% {
+    transform:
+       translateX(-100px) 
+  }
+
+}
+
+@keyframes floats {
+
+	0% {
+		transform: translatey(0px);
+
+	}
+	50% {
+		transform: translatey(-30px);
+
+	}
+	100% {
+		transform: translatey(0px);
+
+	}
+}
+
+
+@keyframes rotate {
+
+	0% {
+		transform: rotate(0px);
+	}
+	33% {
+		transform: rotate(20deg);
+	}
+  100% {
+		transform: rotate(0px);
+	}
+}
+
