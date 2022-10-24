@@ -230,6 +230,11 @@ html {
 	.projects-area {
 		padding: 0px 30px;
 	}
+	.square2 {
+
+	width: 100px;
+	height: 100px;
+	}
 }
 
 @media (max-width: 350px) {
