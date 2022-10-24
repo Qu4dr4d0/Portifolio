@@ -206,7 +206,7 @@ html {
 	border-radius: 8%;
 	top: 40%;
 	left: 43.5%;
-	animation: spinning1 10s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+	animation: floats 6s cubic-bezier(0.7, 0, 0.3, 1) infinite;
 
 }
 
