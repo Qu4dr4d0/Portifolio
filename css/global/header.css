@@ -14,11 +14,15 @@ a:hover {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
   padding: 0px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #0c0c0c;
   height: 8vh;
 }
@@ -57,7 +61,7 @@ nav {
   }
   .nav-list {
     position: absolute;
-    top: 8vh;
+    top: 6vh;
     right: 0;
     width: 100vw;
     height: 50vh;
@@ -90,7 +94,7 @@ nav {
   }
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0px);
   }
 }
 

@@ -1,3 +1,4 @@
+// NAV BAR ANIMATION
 class MobileNavbar {
     constructor(mobileMenu, navList, navLinks) {
       this.mobileMenu = document.querySelector(mobileMenu);
@@ -42,3 +43,11 @@ class MobileNavbar {
     ".nav-list li",
   );
   mobileNavbar.init();
+
+
+
+
+  // CARDS HOVER EFFECT
+
+
+
