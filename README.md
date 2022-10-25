@@ -1,12 +1,16 @@
 # Portifoio - João Vitor Quadrado
 
-https://qu4dr4d0.github.io/Portifolio/
+Link github pages: https://qu4dr4d0.github.io/Portifolio/
+Link vercel.com: https://quadrado.vercel.app/
 
 ## Recursos e Caracteristicas
 
 -Background com animações.
+
 -Portabilidade, o design do site tem suporte a mobile.
+
 -Indentação bem estruturada.
+
 -Design moderno e organizado.
 
 ## Inspirações
