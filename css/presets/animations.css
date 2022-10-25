@@ -13,7 +13,9 @@
 }
 
 
-/*SQUARE ANIMATIONS*/
+
+
+/*INTRODUCTION SQUARE ANIMATIONS*/
 
 @keyframes walking {
 
@@ -101,31 +103,31 @@
 @keyframes spinning1 {
 
 	0% {
-		transform: translateY(0px) rotate(0deg);
+		transform: translatex(0px) rotate(0deg);
 	}
 
   12.5% {
-		transform: translatex(150px) rotate(90deg);
+		transform: translatex(70px)  rotate(90deg);
 	}
 
   25% {
-		transform: translatex(300px) rotate(180deg);
+		transform: translatex(140px) rotate(180deg);
 	}
 
   37.5% {
-		transform: translatex(450px) rotate(280deg);
+		transform: translatex(210px) rotate(280deg);
 	}
 
   50% {
-		transform: translatex(-450px) rotate(260deg);
+		transform: translatex(-210px) rotate(260deg);
 	}
 
   62.5% {
-		transform: translatex(-300px) rotate(360deg);
+		transform: translatex(-140px) rotate(360deg);
 	}
 
   75% {
-		transform: translatex(-150px) rotate(450deg);
+		transform: translatex(-70px) rotate(450deg);
 	}
 
   87.5% {
@@ -138,5 +140,153 @@
 
 
 }
+
+@keyframes spinning2 {
+
+	0% {
+		transform: translateY(0px) rotate(0deg);
+	}
+
+  12.5% {
+		transform: translatex(40px) rotate(90deg);
+	}
+
+  25% {
+		transform: translatex(80px) rotate(180deg);
+	}
+
+  37.5% {
+		transform: translatex(120px) rotate(280deg);
+	}
+
+  50% {
+		transform: translatex(-120px) rotate(260deg);
+	}
+
+  62.5% {
+		transform: translatex(-80px) rotate(360deg);
+	}
+
+  75% {
+		transform: translatex(-40px) rotate(450deg);
+	}
+
+  87.5% {
+		transform: translatex(0px) rotate(545deg);
+	}
+
+  100% {
+    transform: translatex(0px) rotate(540deg);
+  }
+
+
+}
+
+@keyframes spinning3 {
+
+	0% {
+		transform: translateY(0px) rotate(0deg);
+	}
+
+  12.5% {
+		transform: translatex(30px) rotate(90deg);
+	}
+
+  25% {
+		transform: translatex(60px) rotate(180deg);
+	}
+
+  37.5% {
+		transform: translatex(90px) rotate(280deg);
+	}
+
+  50% {
+		transform: translatex(-90px) rotate(260deg);
+	}
+
+  62.5% {
+		transform: translatex(-60px) rotate(360deg);
+	}
+
+  75% {
+		transform: translatex(-30px) rotate(450deg);
+	}
+
+  87.5% {
+		transform: translatex(0px) rotate(545deg);
+	}
+
+  100% {
+    transform: translatex(0px) rotate(540deg);
+  }
+
+}
+
+
+/*PROJECTS SQUARE ANIMATIONS*/
+
+@keyframes rotate2 {
+
+	0% {
+		transform: rotate(0px);
+	}
+	25% {
+		transform: rotate(20deg);
+	}
+  50% {
+		transform: rotate(0px);
+	}
+  75% {
+		transform: rotate(-50deg);
+	}
+  100% {
+		transform: rotate(0px);
+	}
+}
+
+
+@keyframes updown {
+
+	0% {
+		transform: translateY(-150px) rotate(0deg);
+	}
+
+  12.5% {
+		transform: translateY(-75px) rotate(90deg);
+	}
+
+  25% {
+		transform: translatey(0px) rotate(180deg);
+	}
+
+  37.5% {
+		transform: translatey(75px) rotate(270deg);
+	}
+
+  50% {
+		transform: translatey(150px) rotate(360deg);
+	}
+
+  63.5% {
+		transform: translatey(75px) rotate(450deg);
+	}
+
+  75% {
+		transform: translatey(0px) rotate(540deg);
+	}
+
+  87.5% {
+		transform: translatey(-75px) rotate(630deg);
+	}
+  100% {
+		transform: translatey(-150px) rotate(720deg);
+	}
+
+}
+
+
+
+
+
 
 

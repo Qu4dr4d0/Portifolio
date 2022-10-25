@@ -112,10 +112,16 @@ html {
 	.square {
 		width: 100px;
 		height: 100px;
-		animation: walking 10s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+		animation: spinning1 6s cubic-bezier(0.7, 0, 0.3, 1) infinite;
 		z-index: 0;
 	}
 
+}
+
+@media (max-width: 550px) {
+	.square {
+		animation: spinning2 6s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+	}
 }
 
 @media (max-width: 450px) {
@@ -136,6 +142,12 @@ html {
 	}
 
 
+}
+
+@media (max-width: 315px) {
+	.square {
+		animation: spinning3 6s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+	}
 }
 
 
@@ -206,8 +218,16 @@ html {
 	border-radius: 8%;
 	top: 40%;
 	left: 43.5%;
-	animation: floats 6s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+  animation: floats 6s linear infinite, rotate2 8s linear infinite;
 
+}
+
+@media (max-width: 530px) {
+	.square2 {
+		top: 38%;
+		left: 30%;
+		animation: updown 12s linear infinite;
+	}
 }
 
 
@@ -223,6 +243,9 @@ html {
 	.projects-area {
 		padding: 0px 60px;
 	}
+	.square2 {
+		animation: updown 12s linear infinite;
+	}
 }
 
 @media (max-width: 450px) {
@@ -231,9 +254,17 @@ html {
 		padding: 0px 30px;
 	}
 	.square2 {
+		top: 38%;
+		left: 25%;
+		animation: updown 12s linear infinite;
+	}
 
-	width: 100px;
-	height: 100px;
+}
+
+@media (max-width: 400px) {
+
+	.square2 {
+		animation: updown 12s linear infinite;
 	}
 }
 
@@ -247,6 +278,13 @@ html {
 	.imgpcontainer {
 		height: 50px;
 		justify-content: center;
+	}
+	.square2 {
+		width: 100px;
+		height: 100px;
+		top: 38%;
+		left: 33%;
+		animation: updown 12s linear infinite;
 	}
 
 }
