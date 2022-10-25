@@ -286,7 +286,7 @@ html {
 /*ABOUT AREA*/
 
 .about-section {
-	background-color: #030303;
+	background-color: #0c0c0c;
 	padding: 60px 120px;
 	display: flex;
 	flex-direction: column;
@@ -330,7 +330,7 @@ html {
 
 @media (max-width: 450px) {
 	.about-section {
-		padding: 30px 30px;
+		padding: 80px 30px;
 		gap: 8px;
 	}
 

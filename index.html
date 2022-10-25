@@ -16,7 +16,7 @@
 <body>
 
     <header>
-        <nav>
+        <nav id="navbar">
           <a class="logo" href="#">quadrado<span class="cor3">( )</span></a>
           <div class="mobile-menu">
             <div class="li line1"></div>
@@ -196,6 +196,22 @@
         loop: true
       })
 
+    </script>
+
+
+
+    <!--HIDE NAVBAR ON SCROLL-->
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
     </script>
 
 </body>

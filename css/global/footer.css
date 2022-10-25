@@ -62,8 +62,8 @@
   }
 }
 
-@media (max-width: 450px) {
-	  .cont-img-container {
+@media (max-width: 350px) {
+  .cont-img-container {
     justify-content: center;
   }
-	
+}

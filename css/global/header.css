@@ -25,6 +25,7 @@ nav {
   align-items: center;
   background: #0c0c0c;
   height: 8vh;
+  transition: top 0.3s;
 }
 
 
