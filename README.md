@@ -1,4 +1,4 @@
-# Portifoio - João Vitor Quadrado
+# Portifolio - João Vitor Quadrado
 
 -Link github pages: https://qu4dr4d0.github.io/Portifolio/
 
