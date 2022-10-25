@@ -131,7 +131,7 @@ html {
 	}
 
 	.logo {
-		font-size: 15px;
+		font-size: 22px;
 	}
 
 
@@ -219,7 +219,6 @@ html {
 	top: 40%;
 	left: 43.5%;
   animation: floats 6s linear infinite, rotate2 8s linear infinite;
-
 }
 
 @media (max-width: 530px) {
@@ -229,14 +228,6 @@ html {
 		animation: updown 12s linear infinite;
 	}
 }
-
-
-
-
-
-
-
-
 
 @media (max-width: 700px) {
 
@@ -292,6 +283,85 @@ html {
 
 
 
+/*ABOUT AREA*/
+
+.about-section {
+	background-color: #030303;
+	padding: 60px 120px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.title-about, .close {
+	font-size: 40px;
+	white-space: nowrap;
+}
+
+.inline-container {
+	width: 100%;
+	display: flex;
+	gap: 10px;
+}
+
+.description {
+	font-size: 25px;
+}
+
+.also {
+	font-size: 25px;
+}
+
+.download {
+	font-size: 20px;
+}
+
+
+
+.icon {
+	width: 25px;
+}
+
+@media (max-width: 700px) {
+	.about-section {
+		padding: 30px 60px;
+	}
+}
+
+@media (max-width: 450px) {
+	.about-section {
+		padding: 30px 30px;
+		gap: 8px;
+	}
+
+	.title-about {
+		font-size: 22px;
+		margin-bottom: 5px;
+	}
+	.description {
+		font-size: 20px;
+	}
+	
+	.also {
+		font-size: 20px;
+	}
+	
+	.download {
+		font-size: 15px;
+	}
+
+	.icon {
+		width: 20px;
+	}
+
+	.close {
+		font-size: 22px;
+	}
+}
+
+
+
+
 
 
 
@@ -315,5 +385,13 @@ html {
 }
 
 #wave2 {
+	background-color:  #230011;
+}
+
+#peaks1 {
+	background-color:  #030303;
+}
+
+#peaks2 {
 	background-color:  #230011;
 }

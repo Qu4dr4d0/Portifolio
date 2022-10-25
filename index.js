@@ -44,10 +44,3 @@ class MobileNavbar {
   );
   mobileNavbar.init();
 
-
-
-
-  // CARDS HOVER EFFECT
-
-
-
