@@ -1,6 +1,6 @@
-# Portifoio - João Vitor Quadrado
+# Portifolio - João Vitor Quadrado
 
-https://qu4dr4d0.github.io/Portifolio/
+https://quadrado.vercel.app/
 
 ## Recursos e Caracteristicas
 
