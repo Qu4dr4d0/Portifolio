@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="./imgs/icon.svg" type="image/x-icon">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/projects/projects.css">
+    <link rel="stylesheet" href="css/projects/header.css">
+
+    <script src="index.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <title>square.proj</title>
+
+</head>
+<body>
+
+  <header>
+    <nav id="navbar">
+      <a class="logo" href="#">.projects <span class="cor3">( <img class="shake" style="vertical-align: -3px;" width="20px" src="imgs/icon.svg"> )</span></a>
+      <div class="mobile-menu">
+        <a href="index.html"><ion-icon class="arrow" name="arrow-undo-outline"></ion-icon></a>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+<section id="projects" class="projects-area">
+
+  <div class="wrapper">
+    <div class="box">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+    <div class="imgpcontainer">
+    <img class="imgproject" src="./imgs/OpenProjects.svg" alt="">
+    </div>
+
+    <article class="project1 pro woohoo">
+      <h3 class="cor3 title-project">CHILLBASE</h3>
+      <P class="cor1 description-project">The site aims to make the user enjoy a variety of audio for moments of study, work, meditation or even sleep.</P>
+      <a class="cor3 visit-project" href="https://Qu4dr4d0.github.io/Chillbase/" target="_blank">VISIT WEBSITE</a>
+    </article>
+
+    <article class="project2 pro woohoo">
+      <h3 class="cor3 title-project">MATHLAND</h3>
+      <P class="cor1 description-project">Mathland is a site where you can find several different types of calculators, created specifically to make quick calculations of area, volume etc...</P>
+      <a class="cor3 visit-project" href="https://qu4dr4d0.github.io/Mathland/" target="_blank">VISIT WEBSITE</a>  
+    </article>
+
+    <article class="project2 pro woohoo">
+      <h3 class="cor3 title-project">POKÉMON CARDS</h3>
+      <P class="cor1 description-project">The site has as main idea, the demonstration of a carousel of images of the pokemons, showing their characteristics.</P>
+      <a class="cor3 visit-project" href="https://Qu4dr4d0.github.io/Pokemon-cards/" target="_blank">VISIT WEBSITE</a>  
+    </article>
+
+    <article class="project2 pro woohoo">
+      <h3 class="cor3 title-project">CLOCK</h3>
+      <p class="cor1 description-project">The site's main objective is to show the user the time of day. Site made specifically to take my first steps in JavaScript.</p>
+      <a class="cor3 visit-project" href="https://Qu4dr4d0.github.io/Clock/" target="_blank">VISIT WEBSITE</a>  
+    </article>
+
+    <article class="project2 pro woohoo">
+      <h3 class="cor3 title-project">MINI PORTIFOLIO</h3>
+      <p class="cor1 description-project">The idea of ​​the site is to show my main information in a clear and objective way, through a mini card.</p>
+      <a class="cor3 visit-project" href="https://qu4dr4d0.github.io/Mini-Portifolio/" target="_blank">VISIT WEBSITE</a>  
+    </article>
+
+
+  <div class="imgpcontainer">
+    <img class="imgproject" src="./imgs/CloseProject.svg" alt="">
+  </div>
+</section>
+
+
+
+    <!--HOVER CARDS ANIMATION-->
+    <script type="text/javascript" src="./vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".woohoo"), {
+		max: 5,
+		speed: 400
+	  });
+    </script>
+
+
+
+
+    <!--TYPING ANIMATION-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+
+      var typed = new Typed(".typing", {
+        strings: ["playing guitar","gaming", "or trying skating..." ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+      })
+
+    </script>
+
+
+
+    <!--HIDE NAVBAR ON SCROLL-->
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
+
+
+
+</body>
+</html>

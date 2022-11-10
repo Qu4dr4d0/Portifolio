@@ -1,0 +1,60 @@
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo:hover .shake {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) 1;
+  transform: translate3d(0, 0, 0);
+
+}
+
+.logo {
+
+  font-size: 24px;
+  z-index: 6;
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0c0c0c;
+  height: 8vh;
+  transition: top 0.3s;
+}
+
+.mobile-menu {
+  display: block;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 35px;
+  height: 35px;
+  color: #E1006C;
+  transition: 0.3s;
+}
+
+.mobile-menu:hover .li {
+  background: #E1006C;
+
+}
+
+@media (max-width: 450px) {
+  .logo {
+    font-size: 30px;
+  }
+}
