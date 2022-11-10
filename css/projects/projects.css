@@ -17,6 +17,11 @@ body {
 
 }
 
+.pro {
+  background-color: rgba(12, 12, 12, 0.2 );
+  backdrop-filter: blur(3px);
+}
+
 .box div {
   position: absolute;
   width: 80px;

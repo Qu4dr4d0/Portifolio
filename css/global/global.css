@@ -70,7 +70,7 @@ html {
 }
 
 .square {
-  animation: floats 4s linear infinite, rotate 8s linear infinite;
+	animation: floats 6s linear infinite, rotate2 8s linear infinite;
 
 }
 
